@@ -22,7 +22,9 @@ ps:因本人也是一个新手，若有不足之处欢迎大家指出来，共�
 紧接着，启动消费者application， 和生产者application之后，
 通过打接口，生产者生产一条数据并发送给消费者
 ![image](https://github.com/legendzoe/rabbitmqDemo/assets/66513166/5a90e6a9-3d5b-4c7a-af55-b843ae21a6de)
-在消费者控制台里可以看到，具体接受到的消息
+
+
+在下图消费者控制台里可以看到，具体接受到的消息
 ![image](https://github.com/legendzoe/rabbitmqDemo/assets/66513166/bf0fe325-bdfe-4910-ba3e-c48678d960ec)
 
 至此，一个通过交换机发送的，数据从生产到运输到消费， 就全部完成了， 
